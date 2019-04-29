@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "281965650909",
+    "firebase_url": "https://gym-finder-71e7f.firebaseio.com",
+    "project_id": "gym-finder-71e7f",
+    "storage_bucket": "gym-finder-71e7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281965650909:android:044d9594fa59a04c",
+        "android_client_info": {
+          "package_name": "com.example.gymfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281965650909-mmg0h43otjvvs3hlun30ggidvtecp8dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymfinder",
+            "certificate_hash": "70dee74e0b136942b949ca042a9570d8cdbfe667"
+          }
+        },
+        {
+          "client_id": "281965650909-cmq77knrmd3gg0i2sps3ifih8urv8seq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpa4RukypKdYcTAlvWEck1IKV3kXhKjyo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281965650909-cmq77knrmd3gg0i2sps3ifih8urv8seq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

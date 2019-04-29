@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+    android:id="@+id/action_gym"
+    android:enabled="true"
+    android:icon="@drawable/ic_action_fitness"
+    android:title="Gym"
+    app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_empty"
+        android:enabled="true"
+        android:title="empty"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_empty2"
+        android:icon="@drawable/ic_action_home"
+        android:enabled="true"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_empty3"
+        android:enabled="true"
+        android:title="Back To Main Page"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/pharmacy"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_supplements"
+        android:title="Supplements"
+        app:showAsAction="ifRoom" />
+
+</menu>

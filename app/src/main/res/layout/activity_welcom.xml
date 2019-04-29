@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <TextView
+        android:id="@+id/headerTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Welcome to the gym finder app"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="9dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_above="@+id/button_zone"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-27dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/welcome" />
+
+
+    <LinearLayout
+        android:id="@+id/button_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="448dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/openGymsActivityBtn"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_zone"
+            android:layout_alignStart="@+id/button_zone"
+            android:layout_alignLeft="@+id/button_zone"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="View All"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/openUploadActivityBtn"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button_zone"
+            android:layout_alignRight="@+id/button_zone"
+            android:layout_marginBottom="-0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:text="Add New"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="196dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/mapsss" />
+
+
+    <LinearLayout
+        android:id="@+id/button_zone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/openMapActivityBtn"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_zone2"
+            android:layout_alignStart="@+id/button_zone2"
+            android:layout_alignLeft="@+id/button_zone2"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="FIND FITNESS CENTERS AROUND ME"
+            android:textColor="@color/white" />
+
+        >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_out"
+        style="?android:textAppearanceSmall"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/btn_sign_out"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:id="@+id/useremail"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:hint="@string/email_id"
+        android:textSize="12sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
+

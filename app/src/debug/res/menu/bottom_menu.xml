@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_pharmacy"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_supplements"
+        android:title="Supplements"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_gym"
+        android:title="Gym"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_fitness"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_empty2"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_fitness"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+</menu>
